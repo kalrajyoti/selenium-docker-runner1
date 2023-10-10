@@ -3,7 +3,7 @@ services:
   vendor-portal:
     image: 335022/jk
     environment:
-      - BROWSER=chrome
+      - BROWSER
       - HUB_HOST=hub
       - THREAD_COUNT=3
       - TEST_SUITE=vendor-portal.xml
